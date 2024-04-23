@@ -1,0 +1,28 @@
+body {
+    color: rgb(34, 53, 61);
+    background-color: #e6ffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    background-color: rgb(59, 117, 148);
+    color: #e6ffff; 
+    text-align: left; 
+    padding: 25px;
+}
+
+.leftcolumn {
+    background-color: rgb(176, 223, 239);
+    float: left; 
+    width: 17.5%;
+}
+
+.main {
+    width: 65%; 
+    margin:auto
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+}
