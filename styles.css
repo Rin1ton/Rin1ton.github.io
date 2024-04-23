@@ -9,12 +9,14 @@ h1 {
     color: #e6ffff; 
     text-align: left; 
     padding: 25px;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
-.leftcolumn {
-    background-color: rgb(176, 223, 239);
-    float: left; 
-    width: 17.5%;
+h1 a {
+    text-decoration: none;
+    color: #e6ffff;
 }
 
 .main {
@@ -22,7 +24,66 @@ h1 {
     margin:auto
 }
 
+.sidenav {
+    background-color: rgb(176, 223, 239); 
+    width: 180px;
+    max-width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 150px;
+    left: 1%;
+    overflow-x: hidden;
+    padding-left: 3px;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 6px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    color: rgb(29, 90, 124);
+}
+
+.subpage a {
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.sidenav a:hover {
+    color: rgb(139, 27, 68);
+    font-weight: bold;
+}
+
+.column {
+    width: 50%
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 footer {
     padding: 10px;
     text-align: center;
+}
+
+.footercontact a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(29, 90, 124);
+}
+
+.footercontact a:hover {
+    color: rgb(139, 27, 68);
+    font-weight: bold;
 }
