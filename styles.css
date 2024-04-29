@@ -16,7 +16,7 @@ h1 {
 
 h1 a {
     text-decoration: none;
-    color: #e6ffff;
+    color: #f5ffff;
 }
 
 h2 {
@@ -24,10 +24,17 @@ h2 {
 }
 
 .main {
-    width: 65%;
+    width: 60%;
     margin:auto;
     min-height: 600px;
 }
+
+/*img.rounded {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}*/
 
 .sidenav {
     background-color: rgb(176, 223, 239);
