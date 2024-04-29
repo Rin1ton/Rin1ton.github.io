@@ -21,7 +21,8 @@ h1 a {
 
 .main {
     width: 65%;
-    margin:auto
+    margin:auto;
+    min-height: 550px;
 }
 
 .sidenav {
