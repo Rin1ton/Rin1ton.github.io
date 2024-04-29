@@ -19,10 +19,14 @@ h1 a {
     color: #e6ffff;
 }
 
+h2 {
+    text-align: center;
+}
+
 .main {
     width: 65%;
     margin:auto;
-    min-height: 550px;
+    min-height: 600px;
 }
 
 .sidenav {
@@ -78,6 +82,12 @@ footer {
 }
 
 .footercontact a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(29, 90, 124);
+}
+
+.footercontact{
     font-size: 20px;
     text-decoration: none;
     color: rgb(29, 90, 124);
