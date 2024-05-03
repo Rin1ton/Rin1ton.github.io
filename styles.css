@@ -27,6 +27,10 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    text-align: center;
+}
+
 .main {
     width: 60%;
     margin:auto;
@@ -85,15 +89,31 @@ h2 {
     font-weight: bold;
 }
 
-.column {
+.column2 {
     width: 50%
 }
 
-.left {
+.column3 {
+    float: left;
+    width: 31%;
+    padding: 10px;
+}
+
+.column3 img {
+    width: 96%;
+    margin: auto;
+    display: block;
+}
+
+.column3 img:hover {
+    width: 100%;
+}
+
+.left2 {
     float: left;
 }
 
-.right {
+.right2 {
     float: right;
 }
 
