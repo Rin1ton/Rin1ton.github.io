@@ -19,6 +19,10 @@ h1 a {
     color: #f5ffff;
 }
 
+h1 a:hover {
+    color:#00ffff;
+}
+
 h2 {
     text-align: center;
 }
