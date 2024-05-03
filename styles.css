@@ -24,17 +24,24 @@ h2 {
 }
 
 .main {
-    width: 60%;
+    width: 50%;
     margin:auto;
     min-height: 600px;
 }
 
-/*img.rounded {
-    object-fit: cover;
-    border-radius: 50%;
+.socials {
+    margin: auto; 
     height: 100px;
-    width: 100px;
-}*/
+}
+
+.socials img {
+    width: 20%;
+    top: 0px;
+}
+
+.socials img:hover {
+    width: 22%;
+}
 
 .sidenav {
     background-color: rgb(176, 223, 239);
