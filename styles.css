@@ -31,6 +31,21 @@ h3 {
     text-align: center;
 }
 
+h3 a {
+    text-decoration: none;
+    color: rgb(34, 53, 61);
+}
+
+h3 a:hover {
+    color: rgb(139, 27, 68);
+    font-weight: bolder;
+    font-size: 110%;
+}
+
+p {
+    font-size: large;
+}
+
 .main {
     width: 60%;
     margin:auto;
@@ -44,6 +59,16 @@ h3 {
     font-style: italic;
     width: fit-content;
     margin: auto;
+}
+
+a img {
+    width: 96%; 
+    margin: auto; 
+    display: block;
+}
+
+a img:hover {
+    width: 100%;
 }
 
 .socials {
