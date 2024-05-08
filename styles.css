@@ -47,17 +47,25 @@ h3 {
 }
 
 .socials {
-    margin: auto; 
-    height: 100px;
+    margin: auto;
+    width: 50%;
+}
+
+.socialscontainers {
+    float: left;
+    top: 0;
+    width: 50%;
 }
 
 .socials img {
-    width: 20%;
-    top: 0px;
+    margin: auto;
+    display: block;
+    width: 92%;
+    align-self: center;
 }
 
 .socials img:hover {
-    width: 22%;
+    width: 100%;
 }
 
 .sidenav {
