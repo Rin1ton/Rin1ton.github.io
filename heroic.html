@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Vincent Horstkotte</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="favicon.png"> 
+    </head>
+    <body>
+        <h1>
+            <a href="index.html">Vincent Horstkotte | Software Engineer</a>
+        </h1>
+        <hr>
+        <div class="main">
+            <h2>Heroic Defender</h2>
+            <div class="row">
+                <div class="column2 left2" style="width: 45%;">
+                    <p>
+                        <strong>Solo Project</strong><br>
+                        <strong>Language:</strong> C++<br>
+                        <strong>Work Description:</strong><br>
+                        I built Heroic Defender out of 2 FRDM KL25Z's that communicate with each other over a 
+                        serial I<sup>2</sup>C connection. The Controller board ran the game logic, took in the
+                        player's controls and displayed the game to the connected LCD display. The Peripheral
+                        board took signals from the Controller to increment the score and play different tones
+                        while the game was being played. Finally, I wrote a character class which keeps track of
+                        position data for all of the sprites and which all the individual character classes 
+                        inherit from.
+                    </p>
+                </div>
+                <div class="column2 right2" style="width: 50%;">
+                    <iframe width="100%" height="250px" src="https://www.youtube.com/embed/yDIvgh3YiFk" title="GrayboxVR Iteration 2 | VR Campus Building Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div style="padding: 15px;">
+                <img src="HeroicCharacterClasses.png" alt="Character Classes diagram showing the inheritance structure of Heroic Defender" style="width: 95%; margin: auto; display: block;">
+                <p>
+                    If I were to remake the character classes, I would make functions like Move(), Die() and IsDead() 
+                    into abstract functions of the base character class to be implemented in the sub-classes, since
+                    these functions are present in each sub-class.
+                </p>
+            </div>
+            <div class="row" style="padding: 20px;">
+                <div class="column2 left2" style="width: 60%;">
+                    <h3>
+                        <a href="https://github.com/Rin1ton/Heroic-Defender/tree/main">Take a look!</a>
+                    </h3>
+                    <a href="https://github.com/Rin1ton/Heroic-Defender/tree/main" target="_blank"><img src="HeroicGit.png" alt="Heroic Defender Github page" title="Click here to see the Heroic Defender Github page!"></a>
+                </div>
+                <div class="column2 right2" style="width: 35%;">
+                    <h3>Gone, but not Forgotten</h3>
+                    <p>
+                        Unfortunately, you cannot play Heroic Defender. When the semester ended, the project was 
+                        dismantled so the next section could use the hardware involved. The Git project, however,
+                        is still up on my Github profile. With enough patience, one could get it up and running
+                        again, though I never saved a wiring diagram. You can click the link to the left to go
+                        over the source code if you are interested.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sidenav">
+            <a href="resume.html">Résumé</a>
+            <a href="projects.html">Projects</a>
+            <div class="subpage">
+                <a href="graybox.html">GrayboxVR</a>
+                <a href="heroic.html">Heroic Defender</a>
+                <a href="pullrope.html">Pullrope</a>
+                <a href="malika.html">Malika</a>
+                <a href="celerity.html">Celerity</a>
+            </div>
+            <a href="interests.html">Interests</a>
+            <a href="contact.html">Contact Me</a>
+        </div>
+        <div class="footer" style="background-color: rgb(171, 205, 216); height: 600;clear: both;">
+            <footer>
+                <p class="footercontact"><a href="mailto:horstkottevinni@gmail.com">horstkottevinni@gmail.com</a> • <a href="tel:603-417-1490">(603) 417-1490</a></p>
+                <h1 style="text-align: center;">
+                    Thanks for coming :]
+                </h1>
+            </footer>
+        </div>
+    </body>
