@@ -53,7 +53,8 @@ p {
 }
 
 table, th, td {
-    border: 2px  rgb(34, 53, 61);
+    border: 2px solid rgb(34, 53, 61);
+    font-size: large;
 }
 
 .main {
