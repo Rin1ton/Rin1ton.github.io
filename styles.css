@@ -53,13 +53,16 @@ p {
 }
 
 table, th, td {
-    border: 2px solid rgb(34, 53, 61);
-    font-size: large;
+    border: 5px solid rgb(34, 53, 61);
+    border-collapse: collapse;
+    font-size: 1.6em;
+    padding: 10px;
 }
 
 .main {
-    width: 60%;
-    margin:auto;
+    width: 75%;
+    margin-left: auto;
+    margin-right: 5%;
     min-height: 600px;
 }
 
@@ -134,7 +137,8 @@ a img:hover {
 }
 
 .column2 {
-    width: 50%
+    width: 50%;
+    float: left;
 }
 
 .column3 {
@@ -154,17 +158,23 @@ a img:hover {
 }
 
 .left2 {
-    float: left;
+    
 }
 
 .right2 {
-    float: right;
+    
 }
 
 .row:after {
     content: "";
     display: table;
     clear: both;
+}
+
+@media screen and (max-width: 1500px) {
+    .column2 {
+        width: 100%;
+    }
 }
 
 footer {
