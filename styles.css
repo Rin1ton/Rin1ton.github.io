@@ -180,8 +180,9 @@ a img:hover {
         left: 0;
     }
 
-    .showcase {
-        width: 100%;
+    .main {
+        margin-right: 0;
+        width: 70%;
     }
 }
 
