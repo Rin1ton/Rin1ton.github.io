@@ -55,7 +55,7 @@ p {
 table, th, td {
     border: 5px solid rgb(34, 53, 61);
     border-collapse: collapse;
-    font-size: 1.6em;
+    font-size: 1.4em;
     padding: 10px;
 }
 
@@ -183,13 +183,13 @@ footer {
 }
 
 .footercontact a {
-    font-size: 20px;
+    font-size: 40px;
     text-decoration: none;
     color: rgb(29, 90, 124);
 }
 
 .footercontact{
-    font-size: 20px;
+    font-size: 40px;
     text-decoration: none;
     color: rgb(29, 90, 124);
 }
