@@ -175,6 +175,10 @@ a img:hover {
     .column2 {
         width: 100%;
     }
+
+    .sidenav {
+        top: 250px;
+    }
 }
 
 footer {
