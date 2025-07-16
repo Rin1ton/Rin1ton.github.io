@@ -110,7 +110,7 @@ a img:hover {
 .sidenav {
     background-color: rgb(176, 223, 239);
     position: fixed;
-    right: 80%;
+    right: 83%;
     left: 8px;
     top: 150px;
     overflow-x: hidden;
@@ -178,6 +178,10 @@ a img:hover {
         top: 250px;
         right: 80%;
         left: 0;
+    }
+
+    .showcase {
+        width: 100%;
     }
 }
 
