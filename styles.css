@@ -178,10 +178,12 @@ a img:hover {
         top: 250px;
         right: 80%;
         left: 0;
+        visibility: hidden;
     }
 
     .main {
-        width: 70%;
+        width: 95%;
+        margin: auto;
     }
 }
 
