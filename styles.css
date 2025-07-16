@@ -115,7 +115,6 @@ a img:hover {
     left: 8px;
     top: 150px;
     overflow-x: hidden;
-    padding-left: 3px;
 }
 
 .sidenav a {
@@ -178,6 +177,8 @@ a img:hover {
 
     .sidenav {
         top: 400px;
+        right: 80%;
+        left: 0;
     }
 }
 
