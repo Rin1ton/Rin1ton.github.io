@@ -25,10 +25,12 @@ h1 a:hover {
 
 h2 {
     text-align: center;
+    font-size: 5em;
 }
 
 h3 {
     text-align: center;
+    font-size: 2em;
 }
 
 h3 a {
@@ -47,12 +49,20 @@ h4 {
 }
 
 p {
-    font-size: large;
+    font-size: larger;
+}
+
+table, th, td {
+    border: 5px solid rgb(34, 53, 61);
+    border-collapse: collapse;
+    font-size: 1.4em;
+    padding: 10px;
 }
 
 .main {
-    width: 60%;
-    margin:auto;
+    width: 75%;
+    margin-left: auto;
+    margin-right: 5%;
     min-height: 600px;
 }
 
@@ -99,13 +109,11 @@ a img:hover {
 
 .sidenav {
     background-color: rgb(176, 223, 239);
-    max-width: 240px;
     position: fixed;
     right: 83%;
     left: 8px;
     top: 150px;
     overflow-x: hidden;
-    padding-left: 3px;
 }
 
 .sidenav a {
@@ -127,7 +135,8 @@ a img:hover {
 }
 
 .column2 {
-    width: 50%
+    width: 50%;
+    float: left;
 }
 
 .column3 {
@@ -147,17 +156,35 @@ a img:hover {
 }
 
 .left2 {
-    float: left;
+    
 }
 
 .right2 {
-    float: right;
+    
 }
 
 .row:after {
     content: "";
     display: table;
     clear: both;
+}
+
+@media screen and (max-width: 1500px) {
+    .column2 {
+        width: 100%;
+    }
+
+    .sidenav {
+        top: 250px;
+        right: 80%;
+        left: 0;
+        visibility: hidden;
+    }
+
+    .main {
+        width: 95%;
+        margin: auto;
+    }
 }
 
 footer {
